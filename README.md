@@ -8,7 +8,7 @@
 **วิธีที่ 1 — ติดตั้งผ่าน Marketplace (แนะนำ)** เมื่อ repo นี้อยู่บน GitHub แล้ว:
 
 ```text
-/plugin marketplace add CryptozDev/cryptoz-ai-team
+/plugin marketplace add CryptozDev/cryptoz-software-house
 /plugin install cryptoz@CryptozDev
 ```
 
