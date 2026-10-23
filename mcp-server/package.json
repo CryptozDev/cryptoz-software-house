@@ -1,0 +1,23 @@
+{
+  "name": "cryptoz-mcp-server",
+  "version": "0.1.0",
+  "description": "CryptozDev Software House — MCP Server: Group Chat Log · Task Board · Decision Log · Shared Context",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.4"
+  }
+}

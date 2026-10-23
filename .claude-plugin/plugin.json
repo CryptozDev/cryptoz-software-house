@@ -1,0 +1,12 @@
+{
+  "name": "cryptoz",
+  "description": "CryptozDev Software House — ทีม AI 15 ตำแหน่ง (Real Multi-Agent) ทำงานร่วมกันผ่าน AI Group Chat เหมือน Software House จริง",
+  "version": "0.3.0",
+  "author": {
+    "name": "Jarukit Lobthaisong (CryptozDev)",
+    "url": "https://github.com/CryptozDev"
+  },
+  "homepage": "https://github.com/CryptozDev/cryptoz-ai-team",
+  "license": "MIT",
+  "keywords": ["multi-agent", "software-house", "team", "orchestration", "group-chat"]
+}

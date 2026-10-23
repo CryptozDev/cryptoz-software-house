@@ -1,0 +1,14 @@
+# Dependencies — ติดตั้งด้วย npm install (มี dist/ แนบมาให้ใช้ได้เลย)
+node_modules/
+
+# ข้อมูล runtime ของทีม (อยู่ในโปรเจกต์ผู้ใช้ ไม่ควรถูก commit เข้า repo นี้)
+.cryptoz/
+reports/security/
+
+# Logs
+*.log
+.claude/logs/
+
+# OS
+Thumbs.db
+.DS_Store

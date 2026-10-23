@@ -1,0 +1,21 @@
+{
+  "name": "CryptozDev",
+  "owner": {
+    "name": "Jarukit Lobthaisong (CryptozDev)",
+    "url": "https://github.com/CryptozDev"
+  },
+  "plugins": [
+    {
+      "name": "cryptoz",
+      "source": "./",
+      "description": "ทีม Software House AI 15 ตำแหน่ง (Real Multi-Agent Subagents) + AI Group Chat + Task Board + Decision Log + AUTO MODE + Real-time Dashboard",
+      "version": "0.3.0",
+      "keywords": ["multi-agent", "software-house", "team", "group-chat", "dashboard"],
+      "author": {
+        "name": "Jarukit Lobthaisong (CryptozDev)",
+        "url": "https://github.com/CryptozDev"
+      },
+      "license": "MIT"
+    }
+  ]
+}

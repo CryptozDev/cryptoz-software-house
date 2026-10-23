@@ -1,0 +1,16 @@
+# CryptozDev Software House — Dashboard ผ่าน Docker
+# ใช้งาน: docker compose up dashboard  แล้วเปิด http://localhost:5175
+# Dashboard จะอ่าน .cryptoz/ ของโฟลเดอร์ที่ mount เข้า /project (default: โฟลเดอร์โปรเจกต์ที่รัน compose)
+services:
+  dashboard:
+    image: node:20-alpine
+    working_dir: /app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./dashboard:/app
+      - ${CRYPTOZ_PROJECT:-.}:/project:ro
+    command: sh -c "npm install --omit=dev && node server/index.mjs --project /project"
+    ports:
+      - "5175:5175"
+    restart: unless-stopped
