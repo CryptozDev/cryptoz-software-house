@@ -85,7 +85,12 @@ claude --plugin-dir "path/to/cryptoz-software-house"
 # ใน zip มี dist/ build ไว้แล้ว — รันได้เลย (ต้องมี Node 18+)
 node dashboard/server/index.mjs --project <path โปรเจกต์ของคุณ>
 # เปิดเบราว์เซอร์: http://localhost:5175
+```
 
+หรือง่ายกว่านั้น — สั่งใน Claude Code: `/cryptoz:dashboard` (start แบบ background + บอก URL ให้เลย)
+หรือ double-click `start-dashboard.cmd` ที่ plugin root (ถาม path โปรเจกต์ แล้วเปิดเบราว์เซอร์ให้เอง)
+
+```bash
 # ถ้าแก้โค้ด frontend: cd dashboard && npm install && npm run build && npm test
 ```
 
